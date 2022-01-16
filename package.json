@@ -2,13 +2,12 @@
   "name": "canchi",
   "version": "0.0.0",
   "private": true,
+  "main": "index.js",
   "scripts": {
-"dev": "react-scripts start",
-"start": "serve -s build",
-"build": "react-scripts build",
-"test": "react-scripts test --env=jsdom",
-"eject": "react-scripts eject",
-"heroku-postbuild": "npm run build"
+    "beautify": "prettier --single-quote --trailing-comma all --write index.js",
+    "dev": "nodemon index.js",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
