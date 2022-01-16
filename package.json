@@ -1,7 +1,6 @@
 {
   "name": "canchi",
   "version": "0.0.0",
-  "private": true,
   "main": "index.js",
   "scripts": {
     "beautify": "prettier --single-quote --trailing-comma all --write index.js",
